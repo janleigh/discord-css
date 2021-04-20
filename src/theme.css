@@ -1,0 +1,69 @@
+@import url("https://raw.githack.com/hormelcookies/dark-discord/hormelcookies-patch-1/src/source.css");
+
+.theme-dark,
+.theme-light,
+:root {
+    --background-primary: #13141d !important;
+    --background-secondary: #13141d !important;
+    --background-tertiary: #161825 !important;
+    --background-accent: #84a0c6 !important;
+    --background-floating: #161825 !important;
+    --background-modifier-hover: rgba(255, 255, 255, 0.01) !important;
+    --background-modifier-active: rgba(255, 255, 255, 0.03) !important;
+    --background-modifier-selected: rgba(255, 255, 255, 0.04) !important;
+    --background-modifier-accent: hsla(0, 0%, 100%, 0.06) !important;
+    --channeltextarea-background: var(--background-tertiary) !important;
+    --deprecated-card-bg: rgba(0, 0, 0, 0.2) !important;
+    --deprecated-card-editable-bg: rgba(0, 0, 0, 0.1) !important;
+    --deprecated-text-input-bg: var(--deprecated-card-editable-bg) !important;
+    --deprecated-text-input-border: var(--background-floating) !important;
+    --deprecated-text-input-border-disabled: var(--background-tertiary) !important;
+    --activity-card-background: var(--background-primary) !important;
+    --channels-default: #9f9f9f !important;
+    --text-muted: #b6b6b6 !important;
+    --text-normal: #fbfbfb !important;
+    --interactive-normal: #c8c8c8 !important;
+    --interactive-hover: #dcddde !important;
+    --interactive-active: #fff !important;
+    --interactive-muted: #747474 !important;
+    --header-primary: white !important;
+    --header-secondary: #c9c9c9 !important;
+    --toast-background: var(--background-primary) !important;
+    --toast-header: var(--background-tertiary) !important;
+    --toast-contents: var(--background-secondary) !important;
+    --toast-box-shadow: rgba(0, 0, 0, 0.2) !important;
+    --toast-border: var(--background-tertiary) !important;
+}
+
+.panels-j1Uci_ {
+    background-color: #13141d;
+}
+
+.embedFull-2tM8-- {
+    border-left: 4px solid var(--background-accent) !important;
+    background-color: var(--background-tertiary);
+}
+
+.embed-IeVjo6 {
+    border-radius: 0px !important;
+}
+
+.searchBar-3dMhjb {
+    width: 28px;
+    transition: width 0.1s ease-in-out;
+}
+
+.sidebar-2K8pFh {
+  width: 0px;
+  transition: 0.6s ease;
+  position: fixed;
+  height: calc(100% - 47.988px);
+  z-index: 1;
+  bottom: 0px;
+}
+.wrapper-3NnKdC:hover+.base-3dtUhz>.content-98HsJk>.sidebar-2K8pFh {
+  width: 240px;
+}
+.sidebar-2K8pFh:hover {
+  width: 240px;
+}
