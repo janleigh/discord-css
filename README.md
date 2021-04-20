@@ -3,7 +3,7 @@
 ### ❖ Supported CSS Injectors
 
    * Powercord
-   * discocssi
+   * discocss
 
 ### ❖ Note
 
