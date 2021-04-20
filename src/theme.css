@@ -67,3 +67,11 @@
 .sidebar-2K8pFh:hover {
   width: 240px;
 }
+
+.theme-dark .selected-1Tbx07 {
+    background-color: var(--background-tertiary);
+}
+
+.theme-dark .divider-23swzi {
+    background-color: var(--background-primary);
+}
