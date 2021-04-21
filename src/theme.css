@@ -168,16 +168,11 @@ button[aria-label="Select emoji"] {
     left: -1px
 }
 
-/** MOBILE JUMP TO PRESENT BUTTON */
-.jumpToPresentBar-G1R9s6{
+/** OTHER SHIT */
+.jumpToPresentBar-G1R9s6 {
     margin-left: 2px;
     transform: translateX(31px);
-    visibility: hidden;
-    bottom: 15px;
 }
-.barButtonIcon-3t4V3d{
-    visibility: visible;
-    padding: 11px;
-    background-color: var(--background-tertiary);
-    border-radius: 50%;
+.newMessagesBar-265mhP {
+    visibility: true;
 }
