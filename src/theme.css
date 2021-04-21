@@ -48,11 +48,27 @@
     border-radius: 0px !important;
 }
 
+.theme-dark .divider-23swzi {
+    background-color: var(--background-primary);
+}
+
+.theme-dark .selected-1Tbx07 {
+    background-color: var(--background-tertiary);
+}
+
+.theme-dark .wrapper-1-Fsb8 {
+    background-color: var(--background-primary);
+}
+
+/** TOGGLE SEARCH BAR  */
 .searchBar-3dMhjb {
+    background-color: var(--background-primary);
     width: 28px;
     transition: width 0.1s ease-in-out;
 }
 
+
+/** TOGGLE CHANNEL LIST */
 .sidebar-2K8pFh {
   width: 0px;
   transition: 0.6s ease;
@@ -68,10 +84,22 @@
   width: 240px;
 }
 
-.theme-dark .selected-1Tbx07 {
-    background-color: var(--background-tertiary);
+/** IGNORE :) */
+.avatar-1BDn8e[src*="380307921952833537"] + h2.header-23xsNx {
+    --tag-text: "Kizu";
+    --tag-bg1: var(--background-accent);
 }
-
-.theme-dark .divider-23swzi {
-    background-color: var(--background-primary);
+.avatar-1BDn8e[src*="380307921952833537"] + h2 > span.timestamp-3ZCmNB::before {
+    color: #000 !important;
+    background: var(--tag-bg1) !important;
+    content: var(--tag-text);
+    font-size: .8em;
+    font-weight: 500;
+    height: 2.28em;
+    padding: .072rem .275rem;
+    border-radius: 3px;
+    text-transform: uppercase;
+    vertical-align: baseline;
+    margin-right: .50rem;
+    margin-left: -.25rem;
 }
