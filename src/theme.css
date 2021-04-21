@@ -142,6 +142,10 @@
 .channelTextArea-rNsIhG, .channelTextArea-2VhZ6z { 
     margin-left: 32px;
 }
+.jumpToPresentBar-G1R9s6 {
+    margin-left: 2px;
+    transform: translateX(31px);
+}
 .base-gE7OpD {
     right: -5px;
 }
