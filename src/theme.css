@@ -38,7 +38,7 @@
     --seperator-color: var(--background-accent);
 }
 
-::-webkit-scrollbarr {
+::-webkit-scrollbar {
     display: none;
 }
 
@@ -65,6 +65,24 @@
 
 .theme-dark .wrapper-1-Fsb8 {
     background-color: var(--background-primary);
+}
+
+/* Hide Nitro gift button */
+button[aria-label="Send a gift"] {
+    display: none;
+}
+/* Hide sticker picker button */
+button[aria-label="Open sticker picker"] {
+    display: none;
+}
+
+button[aria-label="Open GIF picker"] {
+    margin-top: 2px;
+    margin-left: -90px;
+}
+
+button[aria-label="Select emoji"] {
+    margin-left: -50px;
 }
 
 /** TOGGLE SEARCH BAR  */
@@ -136,15 +154,11 @@
 .chatContent-a9vAAp {
     background-color: var(--background-primary);
     border-radius: 0 15px 0 0 !important;
-    margin-left: -0px;
+    margin-left: 0px;
     margin-right: -15px;
 }
 .channelTextArea-rNsIhG, .channelTextArea-2VhZ6z { 
     margin-left: 32px;
-}
-.jumpToPresentBar-G1R9s6 {
-    margin-left: 2px;
-    transform: translateX(31px);
 }
 .base-gE7OpD {
     right: -5px;
@@ -154,22 +168,16 @@
     left: -1px
 }
 
-/** IGNORE :) */
-.avatar-1BDn8e[src*="380307921952833537"] + h2.header-23xsNx {
-    --tag-text: "Kizu";
-    --tag-bg1: var(--background-accent);
+/** MOBILE JUMP TO PRESENT BUTTON */
+.jumpToPresentBar-G1R9s6{
+    margin-left: 2px;
+    transform: translateX(31px);
+    visibility: hidden;
+    bottom: 15px;
 }
-.avatar-1BDn8e[src*="380307921952833537"] + h2 > span.timestamp-3ZCmNB::before {
-    color: #000 !important;
-    background: var(--tag-bg1) !important;
-    content: var(--tag-text);
-    font-size: .8em;
-    font-weight: 500;
-    height: 2.28em;
-    padding: .072rem .275rem;
-    border-radius: 3px;
-    text-transform: uppercase;
-    vertical-align: baseline;
-    margin-right: .50rem;
-    margin-left: -.25rem;
+.barButtonIcon-3t4V3d{
+    visibility: visible;
+    padding: 11px;
+    background-color: var(--background-tertiary);
+    border-radius: 50%;
 }
