@@ -1,4 +1,4 @@
-<img src="https://img.kizu.cf/u/SGOMtFg.png">
+<img src="https://img.kizu.cf/u/JepfZ4z.png">
 
 ### ❖ Supported CSS Injectors
 
