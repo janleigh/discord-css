@@ -137,10 +137,10 @@
     background-color: var(--background-primary);
     border-radius: 0 15px 0 0 !important;
     margin-left: -0px;
-    margin-right: 15px;
+    margin-right: -15px;
 }
 .channelTextArea-rNsIhG, .channelTextArea-2VhZ6z { 
-    margin-left: 25px;
+    margin-left: 32px;
 }
 .base-gE7OpD {
     right: -5px;
