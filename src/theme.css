@@ -189,3 +189,6 @@ button[aria-label="Select emoji"] {
 .theme-dark .uploadModal-2ifh8j {
     transform: translateX(32px);
 }
+.embed-IeVjo6 code {
+    background-color: var(--background-primary);
+}
