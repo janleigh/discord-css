@@ -49,6 +49,7 @@
     width: 5px !important;
 }
 ::-webkit-scrollbar-thumb {
+    color: var(--background-accent);
     background: var(--background-primary) !important;
     width: 5px !important;
     border: none !important;
@@ -191,4 +192,7 @@ button[aria-label="Select emoji"] {
 }
 .embed-IeVjo6 code {
     background-color: var(--background-primary);
+}
+.role-3UN8jj {
+    background-color: var(--background-tertiary);
 }
