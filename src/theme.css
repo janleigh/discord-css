@@ -153,8 +153,14 @@ div:not(:hover) > .members-1998pB > div {
     padding: 5px 10px 5px 15px;
 }
 .typing-2GQL18 {
+    background-color: #1b1c27;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
     top: -24px;
-    right: 73px;
+    right: 80px;
+}
+.base-gE7OpD .slowModeIcon-1BPDC_ {
+    visibility: hidden;
 }
 .wrapper-2aW0bm {
     left: -48px;
