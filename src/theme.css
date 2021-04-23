@@ -146,7 +146,7 @@ div:not(:hover) > .members-1998pB > div {
 .messagesWrapper-1sRNjr {
     margin-right: 60px;
 }
-.channelTextArea-rNsIhG { 
+div > .channelTextArea-rNsIhG { 
     border-radius: 0px;
     margin-left: -20px;
     margin-top: 0px;
@@ -172,7 +172,11 @@ div:not(:hover) > .members-1998pB > div {
     border-radius: 0px;
     box-shadow: none;
     bottom: calc(100%);
-    right: 25px;
+    right: 24px;
+}
+.menu-3sdvDG {
+    left: 10px;
+    bottom: 5px;
 }
 
 /** OTHER SHIT */
