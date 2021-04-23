@@ -92,11 +92,11 @@ button[aria-label="Open sticker picker"] {
 
 button[aria-label="Open GIF picker"] {
     margin-top: 2px;
-    margin-left: -100px;
+    margin-left: -95px;
 }
 
 button[aria-label="Select emoji"] {
-    margin-left: -60px;
+    margin-left: -55px;
 }
 
 /** TOGGLE SEARCH BAR  */
@@ -160,6 +160,15 @@ div:not(:hover) > .members-1998pB > div {
 }
 .wrapper-2aW0bm {
     left: -48px;
+}
+.attachButton-2dnuIu {
+    margin-left: -32px;
+}
+.autocomplete-3l_oCd {
+    border-radius: 0px;
+    box-shadow: none;
+    bottom: calc(100%);
+    right: 25px;
 }
 
 /** OTHER SHIT */
