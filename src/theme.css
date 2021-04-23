@@ -143,6 +143,9 @@ div:not(:hover) > .members-1998pB > div {
     padding-top: 10px;
 }
 
+.messagesWrapper-1sRNjr {
+    margin-right: 60px;
+}
 .channelTextArea-rNsIhG { 
     border-radius: 0px;
     margin-left: -20px;
@@ -161,9 +164,6 @@ div:not(:hover) > .members-1998pB > div {
 }
 .base-gE7OpD .slowModeIcon-1BPDC_ {
     visibility: hidden;
-}
-.wrapper-2aW0bm {
-    left: -48px;
 }
 .attachButton-2dnuIu {
     margin-left: -32px;
