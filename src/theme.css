@@ -33,9 +33,6 @@
     --toast-contents: var(--background-secondary) !important;
     --toast-box-shadow: rgba(0, 0, 0, 0.2) !important;
     --toast-border: var(--background-tertiary) !important;
-
-    --hover-animation-speed: 0.60s;
-    --seperator-color: var(--background-accent);
 }
 
 ::-webkit-scrollbar,
@@ -130,6 +127,7 @@ button[aria-label="Select emoji"] {
     position: fixed;
     max-width: 120px;
     min-width: 120px;
+    max-height: 630px;
     transition: .6s ease;
 }
 .members-1998pB:hover {
