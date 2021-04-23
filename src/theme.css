@@ -92,11 +92,11 @@ button[aria-label="Open sticker picker"] {
 
 button[aria-label="Open GIF picker"] {
     margin-top: 2px;
-    margin-left: -80px;
+    margin-left: -100px;
 }
 
 button[aria-label="Select emoji"] {
-    margin-left: -40px;
+    margin-left: -60px;
 }
 
 /** TOGGLE SEARCH BAR  */
@@ -123,60 +123,43 @@ button[aria-label="Select emoji"] {
 }
 
 /** BUBBLE MEMBER LIST */
-.members-1998pB {
-    transition: transform var(--hover-animation-speed);
-}
 .membersWrap-2h-GB4 {
     min-width: unset;
-    width: 40px;
-    justify-content: left;
-}
-.membersWrap-2h-GB4:hover .members-1998pB {
-    transform: translateX(-240px);
-}
-.membersWrap-2h-GB4 .members-1998pB .member-3-YXUe {
-    background-color: unset;
-    margin-left: 0px;
-    transition: margin-left var(--hover-animation-speed);
-}
-.membersWrap-2h-GB4:hover .members-1998pB .member-3-YXUe {
-    margin-left: 15px;
-}
-.membersWrap-2h-GB4:hover .membersGroup-v9BXpm {
-    transform: translateX(2px);
-}
-.membersWrap-2h-GB4 .membersGroup-v9BXpm {
-    cursor: default;
-    transform: translateX(-10px);
-    transition: transform var(--hover-animation-speed);
-    overflow: visible;
 }
 .members-1998pB {
-    left: 37px;
-    margin-top: 65px;
-    margin-bottom: -70px;
+    position: fixed;
+    max-width: 120px;
+    min-width: 120px;
+    transition: .6s ease;
 }
-.membersWrap-2h-GB4 {
-    left: 45px;
-    margin-right: 40px;
-    bottom: 75px;
-    background-color: rgba(216, 27, 27, 0);
+.members-1998pB:hover {
+    max-width: 480px;
+    min-width: 480px;
+    transition: .6s ease;
 }
-.chatContent-a9vAAp {
-    background-color: var(--background-primary);
-    border-radius: 0 15px 0 0 !important;
-    margin-left: 0px;
-    margin-right: -15px;
+div:not(:hover) > .membersGroup-v9BXpm {
+    height: 0px;
+    padding: 0%;
 }
+div:not(:hover) > .members-1998pB > div {
+    padding-top: 10px;
+}
+
 .channelTextArea-rNsIhG { 
-    margin-left: 32px;
+    border-radius: 0px;
+    margin-left: -20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
-.base-gE7OpD {
-    right: -5px;
+.scrollableContainer-2NUZem {
+    padding: 5px 10px 5px 15px;
 }
-.buttons-3JBrkn {
-    position: relative;
-    left: -1px
+.typing-2GQL18 {
+    top: -24px;
+    right: 73px;
+}
+.wrapper-2aW0bm {
+    left: -48px;
 }
 
 /** OTHER SHIT */
