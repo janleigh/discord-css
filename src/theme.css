@@ -128,17 +128,24 @@ button[aria-label="Select emoji"] {
     max-width: 120px;
     min-width: 120px;
     max-height: 630px;
-    transition: .6s ease;
+    transition: .6s;
 }
 .members-1998pB:hover {
     max-width: 480px;
     min-width: 480px;
     transition: .6s ease;
 }
-div:not(:hover) > .membersGroup-v9BXpm {
+.membersGroup-v9BXpm {
     height: 0px;
-    padding: 0%;
+    padding: 0px;
+    visibility: hidden;
 }
+div:hover > .membersGroup-v9BXpm {
+    padding: 24px 8px 0 16px;
+    height: 40px;
+    visibility: visible;
+}
+
 div:not(:hover) > .members-1998pB > div {
     padding-top: 10px;
 }
