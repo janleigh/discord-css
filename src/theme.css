@@ -143,57 +143,6 @@ div > .channelTextArea-rNsIhG {
     margin: 0 0 0 -20px;
 }
 
-/** MESSAGE TEXT BOX SHIT */
-.scrollableContainer-2NUZem {
-    padding: 5px 10px 5px 15px;
-}
-.typing-2GQL18 {
-    background-color: #1b1c27;
-
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
-
-    top: -24px;
-    right: 80px;
-
-    width: 1205px;
-}
-div[class="jumpToPresentBar-G1R9s6 barBase-1c2Rfb"] > .base-gE7OpD .cooldownWrapper-3joyFc {
-    margin-right: 15em !important;
-
-    width: 905 !important;
-}
-.base-gE7OpD .slowModeIcon-1BPDC_ {
-    visibility: hidden;
-}
-.attachButton-2dnuIu {
-    margin-left: -32px;
-}
-.fontSize16Padding-3Wk7zP {
-    padding-right: 90px;
-}
-.autocomplete-3l_oCd {
-    border-radius: 0px;
-    box-shadow: none;
-
-    bottom: calc(100%);
-    right: 24px;
-}
-.menu-3sdvDG {
-    left: 10px;
-    bottom: 5px;
-}
-button[aria-label="Send a gift"], button[aria-label="Open sticker picker"] {
-    display: none;
-}
-button[aria-label="Open GIF picker"] {
-    margin-top: 2px;
-    margin-left: -95px;
-}
-button[aria-label="Select emoji"] {
-    margin-left: -55px;
-}
-
 /** OTHER SHIT */
 .jumpToPresentBar-G1R9s6 {
     margin-left: 2px;
@@ -252,4 +201,8 @@ button[aria-label="Select emoji"] {
 
 .theme-dark .uploadModal-2ifh8j {
     transform: translateX(32px);
+}
+
+.tipTitle-GL9qAt {
+    color: #7289da;
 }
