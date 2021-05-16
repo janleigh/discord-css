@@ -131,18 +131,6 @@
     margin-right: 40px;
 }
 
-/** MESSAGE BOX */
-
-main:not([aria-label=" (channel)"]) > .messagesWrapper-1sRNjr {
-    margin-right: -40px;
-}
-div > .channelTextArea-rNsIhG { 
-    border-radius: 0px;
-    width: 1265px;
-
-    margin: 0 0 0 -20px;
-}
-
 /** OTHER SHIT */
 .jumpToPresentBar-G1R9s6 {
     margin-left: 2px;
