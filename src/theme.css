@@ -114,6 +114,10 @@ button[aria-label="Send a gift"] {
     background-color: var(--background-tertiary);
 }
 
+.scroller-3BxosC {
+    padding: 8px !important;
+}
+
 .theme-dark .divider-23swzi {
     background-color: var(--background-primary);
 }
