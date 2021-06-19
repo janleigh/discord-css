@@ -36,7 +36,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    color: transparent !important;
+    color: var(--background-tertiary) !important;
     background: var(--background-primary) !important;
     width: 5px !important;
     border: none !important;
@@ -78,7 +78,11 @@
 
 /** FIX BUTTONS */
 .webkit-HjD9Er .buttons-3JBrkn {
-    margin: 0px;
+    margin: 0 7px 0 0;
+}
+
+button[aria-label="Send a gift"] {
+    visibility: hidden;
 }
 
 /** OTHER SHIT */
@@ -95,7 +99,6 @@
 }
 
 .embedFull-2tM8-- {
-    border-left: 4px solid var(--background-accent) !important;
     background-color: var(--background-tertiary);
 }
 
@@ -104,7 +107,7 @@
 }
 
 .panels-j1Uci_ {
-    background-color: var(--background-tertiary);
+    background-color: var(--background-primary);
 }
 
 .role-3UN8jj {
