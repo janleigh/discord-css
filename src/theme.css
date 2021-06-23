@@ -64,7 +64,6 @@
     transition: 0.6s ease;
     position: fixed;
     z-index: 1;
-
 }
 
 .wrapper-3NnKdC:hover + .base-3dtUhz > .content-98HsJk > .sidebar-2K8pFh {
@@ -174,6 +173,19 @@ button[aria-label="Send a gift"] {
     background-color: var(--background-primary);
 }
 
+.form-2fGMdU .channelTextArea-rNsIhG {
+    margin-left: 36px;
+}
+
+main[aria-label=" (channel)"] .form-2fGMdU .channelTextArea-rNsIhG {
+    margin-left: 0px !important;
+}
+
+.contentWrapper-SvZHNd {
+    margin-left: 28px;
+    margin-right: -28px;
+}
+
 /** ALL HTTP LINKS HIGHLIGHTED AS RED */
 a[href^="http://"] {
   color: #ea6962;
@@ -202,6 +214,10 @@ a[href^="http://"] {
 
 .role-3UN8jj {
     background-color: var(--background-tertiary);
+}
+
+.scroller-3BxosC {
+    padding: 8px !important;
 }
 
 .theme-dark .divider-23swzi {
