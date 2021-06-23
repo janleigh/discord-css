@@ -1,9 +1,9 @@
 {
-    "name": "kizu.vim",
-    "version": "0.1.0",
+    "name": "discord-css",
+    "version": "0.1.1",
     "theme": "src/theme.css",
 
     "author": "TheRealKizu#3267",
-    "description": "A discord theme based on my colorscheme",
+    "description": "My custom discord theme for my Linux rice.",
     "license": "UNLICENSED"
 }

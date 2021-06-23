@@ -1,4 +1,5 @@
 @import url("https://raw.githack.com/hormelcookies/dark-discord/hormelcookies-patch-1/src/source.css");
+@import url("https://raw.githack.com/Freeplayg/Discord-TeardropMessages/main/theme.css");
 
 .theme-dark,
 .theme-light,
@@ -82,6 +83,25 @@
 
 button[aria-label="Send a gift"] {
     visibility: hidden;
+}
+
+/** TEARDROP MESSAGES */
+.cozy-3raOZG .messageContent-2qWWxC:not(.repliedTextContent-1R3vnK), .embedFull-2tM8--, .wrapper-35wsBm,
+.message-2qnXI6 .imageWrapper-2p5ogY, .cozy-3raOZG .repliedMessage-VokQwo {
+    background-color: #32302f;
+}
+
+.cozy-3raOZG .repliedMessage-VokQwo ~ .contents-2mQqc9 > .messageContent-2qWWxC:first-of-type::before {
+    background-color: #32302f;
+}
+
+.theme-dark .cozy-3raOZG .messageContent-2qWWxC:not(.repliedTextContent-1R3vnK), .theme-dark .embedFull-2tM8-- {
+    background-color: var(--background-floating);
+    font-weight: 400;
+}
+
+.theme-dark .cozy-3raOZG .messageContent-2qWWxC:not(.repliedTextContent-1R3vnK) pre code {
+    background-color: var(--background-primary);
 }
 
 /** OTHER SHIT */
