@@ -130,10 +130,6 @@ a[href^="http://"] {
     background-color: var(--background-tertiary);
 }
 
-.scroller-3BxosC {
-    padding: 8px !important;
-}
-
 .theme-dark .divider-23swzi {
     background-color: var(--background-primary);
 }
