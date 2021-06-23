@@ -44,10 +44,6 @@
     border-radius: 2px !important;
 }
 
-::-webkit-scrollbar {
-    width: 5px !important;
-}
-
 /** TOGGLE SEARCH BAR  */
 .searchBar-3dMhjb {
     background-color: var(--background-primary);
@@ -104,6 +100,11 @@ button[aria-label="Send a gift"] {
     background-color: var(--background-primary);
 }
 
+/** ALL HTTP LINKS HIGHLIGHTED AS RED */
+a[href^="http://"] {
+  color: #ea6962;
+}
+
 /** OTHER SHIT */
 .activity-3v9l4T {
     padding-bottom: 8px;
@@ -119,10 +120,6 @@ button[aria-label="Send a gift"] {
 
 .embedFull-2tM8-- {
     background-color: var(--background-tertiary);
-}
-
-.embed-IeVjo6 {
-    border-radius: 0px !important;
 }
 
 .panels-j1Uci_ {
