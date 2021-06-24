@@ -173,8 +173,13 @@ button[aria-label="Send a gift"] {
     background-color: var(--background-primary);
 }
 
-.form-2fGMdU .channelTextArea-rNsIhG {
+.form-2fGMdU .channelTextArea-rNsIhG,
+.jumpToPresentBar-G1R9s6 {
     margin-left: 36px;
+}
+
+.jumpToPresentBar-G1R9s6 {
+    margin-right: -36px;
 }
 
 main[aria-label=" (channel)"] .form-2fGMdU .channelTextArea-rNsIhG {
