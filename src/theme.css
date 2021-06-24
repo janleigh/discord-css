@@ -211,6 +211,10 @@ a[href^="http://"] {
     background-color: var(--background-tertiary);
 }
 
+.bodyInnerWrapper-26fQXj {
+    padding: 16px;
+}
+
 .drawerSizingWrapper-17Mss4 {
     right: 30px;
 }
