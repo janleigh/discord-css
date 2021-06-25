@@ -37,11 +37,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    color: var(--background-tertiary) !important;
-    background: var(--background-tertiary) !important;
-    width: 5px !important;
-    border: none !important;
-    border-radius: 2px !important;
+    color: transparent !important;
 }
 
 ::-webkit-scrollbar {
