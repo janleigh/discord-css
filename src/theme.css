@@ -211,6 +211,10 @@ a[href^="http://"] {
     padding: 16px;
 }
 
+.container-1_ClKi {
+    padding: 16px !important;
+}
+
 .drawerSizingWrapper-17Mss4 {
     right: 30px;
 }
