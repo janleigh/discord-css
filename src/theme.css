@@ -198,6 +198,15 @@ a[href^="http://"] {
   color: #ea6962;
 }
 
+/** BLUR USERNAME AND DISCRIM ON CHANNEL LIST */
+.usernameContainer-1fp4nu {
+    filter: blur(2px);
+}
+
+.usernameContainer-1fp4nu:hover {
+    filter: none;
+}
+
 /** OTHER SHIT */
 .activity-3v9l4T {
     padding-bottom: 8px;
