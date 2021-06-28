@@ -193,6 +193,10 @@ main[aria-label=" (channel)"] .form-2fGMdU .channelTextArea-rNsIhG {
     margin-right: -28px;
 }
 
+.barBase-1c2Rfb {
+    margin-right: -80px;
+}
+
 /** ALL HTTP LINKS HIGHLIGHTED AS RED */
 a[href^="http://"] {
   color: #ea6962;
