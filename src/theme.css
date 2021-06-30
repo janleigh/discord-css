@@ -146,10 +146,6 @@
     margin: 0 7px 0 0;
 }
 
-button[aria-label="Send a gift"] {
-    visibility: hidden;
-}
-
 /** TEARDROP MESSAGES */
 .cozy-3raOZG .messageContent-2qWWxC:not(.repliedTextContent-1R3vnK), .embedFull-2tM8--, .wrapper-35wsBm,
 .message-2qnXI6 .imageWrapper-2p5ogY, .cozy-3raOZG .repliedMessage-VokQwo {
@@ -193,7 +189,7 @@ main[aria-label=" (channel)"] .form-2fGMdU .channelTextArea-rNsIhG {
     margin-right: -28px;
 }
 
-.barBase-1c2Rfb {
+.newMessagesBar-265mhP {
     margin-right: -80px;
 }
 
@@ -218,10 +214,6 @@ a[href^="http://"] {
 
 .attachment-33OFj0 {
     background-color: var(--background-tertiary);
-}
-
-.bodyInnerWrapper-26fQXj {
-    padding: 16px;
 }
 
 .container-1_ClKi {
