@@ -3,7 +3,6 @@
 ### ❖ Supported CSS Injectors
 
    * [Powercord](https://powercord.dev)
-   * [discocss](https://github.com/mlvzk/discocss)
 
 ### ❖ Note
 

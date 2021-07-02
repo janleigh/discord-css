@@ -1,5 +1,6 @@
 @import url("https://raw.githack.com/hormelcookies/dark-discord/hormelcookies-patch-1/src/source.css");
 @import url("https://raw.githack.com/Freeplayg/Discord-TeardropMessages/main/theme.css");
+@import url("https://tropix126.github.io/BetterDiscordStuff/materialcons/base.css");
 
 .theme-dark,
 .theme-light,
@@ -146,6 +147,10 @@
     margin: 0 7px 0 0;
 }
 
+button[aria-label="Select emoji"] {
+    margin-bottom: 3px;
+}
+
 /** TEARDROP MESSAGES */
 .cozy-3raOZG .messageContent-2qWWxC:not(.repliedTextContent-1R3vnK), .embedFull-2tM8--, .wrapper-35wsBm,
 .message-2qnXI6 .imageWrapper-2p5ogY, .cozy-3raOZG .repliedMessage-VokQwo {
@@ -259,12 +264,3 @@ a[href^="http://"] {
 .theme-dark .uploadModal-2ifh8j {
     transform: translateX(32px);
 }
-
-/* INVERTED GUILD LIST */
-/* .scroller-1Bvpku {
-    background-color: var(--background-primary);
-}
-
-.circleIconButton-1QV--U {
-    background-color: var(--background-tertiary);
-} */
