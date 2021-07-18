@@ -170,6 +170,13 @@ button[aria-label="Select emoji"] {
     background-color: var(--background-primary);
 }
 
+.pngImage-33yLRP {
+    border-radius: 16px;
+    border-top-left-radius: 0px;
+    box-shadow: var(--elevation-low);
+    overflow: visible !important;
+}
+
 .form-2fGMdU .channelTextArea-rNsIhG,
 .jumpToPresentBar-G1R9s6 {
     margin-left: 36px;
