@@ -207,7 +207,7 @@ main[aria-label=" (channel)"] .form-2fGMdU .channelTextArea-rNsIhG {
 
 /** ALL HTTP LINKS HIGHLIGHTED AS RED */
 a[href^="http://"] {
-  color: #ea6962;
+    color: #ea6962;
 }
 
 /** BLUR USERNAME AND DISCRIM ON CHANNEL LIST */
@@ -217,6 +217,11 @@ a[href^="http://"] {
 
 .usernameContainer-1fp4nu:hover {
     filter: none;
+}
+
+/** SMALLER USER BANNER */
+.profileBannerPremium-35utuo {
+    height: 160px;
 }
 
 /** OTHER SHIT */
