@@ -224,6 +224,36 @@ a[href^="http://"] {
     height: 160px;
 }
 
+/** PADDING FIX */
+.infoScroller-1Qu30O {
+    padding: 20px !important;
+}
+
+.templatesList-2E6rTe {
+    padding: 16px;
+}
+
+.scroller-3tPHw0 {
+    padding-right: 16px !important;
+}
+
+/** NITRO ACCENT COLOR FIX */
+.disableColor-2z9rkr, .iconBackgroundTierNone-3ZkOsa, .iconBackgroundTierOne-2OQMBY, .iconBackgroundTierThree-FWlUL9, .iconBackgroundTierTwo-Eab9L6 {
+    color: hsl(302,calc(var(--saturation-factor, 1)*100%),72.5%) !important;
+}
+
+.tierMarkerAccomplished-2MiXeg, .tierMarkerInProgress-24LMzJ {
+    background: rgb(255, 115, 250) !important;
+}
+
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
+    background-color: rgb(255, 115, 250) !important;
+}
+
+.theme-dark .perk-2WeBWW {
+    background-color: var(--background-primary) !important;
+}
+
 /** OTHER SHIT */
 .activity-3v9l4T {
     padding-bottom: 8px;
