@@ -254,6 +254,29 @@ a[href^="http://"] {
     background-color: var(--background-primary) !important;
 }
 
+/** THREAD FIX */
+.container-3hZ-gs {
+    background-color: var(--background-tertiary) !important;
+    border-radius: 16px;
+    border-top-left-radius: 0px;
+    box-shadow: var(--elevation-low);
+}
+
+/** MAKE IT LOOK LIKE IRC */
+.threadMessageAccessory-1pYyA- .threadMessageAccessoryPreview-1uSsue .threadMessageAccessoryContent-1LHM39 {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    margin-top: 0px !important;
+}
+
+.threadSidebar-1o3BTy .form-2fGMdU .channelTextArea-rNsIhG, .jumpToPresentBar-G1R9s6 {
+    margin-left: 0px !important;
+}
+
+.chat-3bRxxu.threadSidebarOpen-vdkwIh .form-2fGMdU .channelTextArea-rNsIhG, .jumpToPresentBar-G1R9s6 {
+    margin-left: 0px !important;
+}
+
 /** OTHER SHIT */
 .activity-3v9l4T {
     padding-bottom: 8px;
@@ -277,6 +300,10 @@ a[href^="http://"] {
 
 .embedFull-2tM8-- {
     background-color: var(--background-tertiary);
+}
+
+.emptyChannelIcon-cc932w {
+    display: none;
 }
 
 .panels-j1Uci_ {
