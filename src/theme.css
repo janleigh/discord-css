@@ -177,12 +177,12 @@ button[aria-label="Select emoji"] {
 }
 
 .chat-3bRxxu .form-2fGMdU .channelTextArea-rNsIhG,
-.chat-3bRxxu .jumpToPresentBar-G1R9s6 {
+.jumpToPresentBar-G1R9s6 {
     margin-left: 36px !important;
     margin-right: -36px !important;
 }
 
-.jumpToPresentBar-G1R9s6,
+.chat-3bRxxu .jumpToPresentBar-G1R9s6,
 .replyBar-1YLQ2F {
     background-color: #32302f;
     margin-right: -36px;
@@ -201,7 +201,8 @@ main[aria-label=" (channel)"] .form-2fGMdU .channelTextArea-rNsIhG {
     margin-right: -28px;
 }
 
-.newMessagesBar-265mhP {
+.newMessagesBar-265mhP,
+.chatHeaderBar-4vZS1x {
     margin-right: -80px;
 }
 
