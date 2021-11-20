@@ -1,5 +1,7 @@
 @import url("https://raw.githack.com/hormelcookies/dark-discord/hormelcookies-patch-1/src/source.css");
 @import url("https://raw.githack.com/Freeplayg/Discord-TeardropMessages/main/theme.css");
+@import url("https://cdn.jsdelivr.net/gh/aymanbagabas/iosevka-fonts@v6.1.2/dist/iosevka/iosevka.min.css");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
 
 .theme-dark,
 .theme-light,
@@ -7,7 +9,7 @@
     --background-primary: #1d2021 !important;
     --background-secondary: #1d2021 !important;
     --background-tertiary: #282828 !important;
-    --background-accent: #7daea3 !important;
+    --background-accent: #689d6a !important;
     --background-floating: #282828 !important;
     --background-modifier-hover: rgba(255, 255, 255, 0.01) !important;
     --background-modifier-active: rgba(255, 255, 255, 0.03) !important;
@@ -36,6 +38,14 @@
     --toast-border: var(--background-tertiary) !important;
 }
 
+html, body {
+    font-family: "DM Sans", sans-serif !important;
+}
+
+.markup-2BOw-j code.inline {
+    font-family: "Iosevka", sans-serif !important;
+}
+
 ::-webkit-scrollbar-thumb {
     color: transparent !important;
 }
@@ -45,7 +55,7 @@
 }
 
 /** TOGGLE SEARCH BAR  */
-.searchBar-3dMhjb {
+.searchBar-3dMhjb{
     background-color: var(--background-primary);
     width: 28px;
     transition: width 0.1s ease-in-out;
@@ -79,11 +89,15 @@ button[aria-label="Select emoji"] {
     background-color: var(--background-primary);
 }
 
-.pngImage-33yLRP {
+.repliedMessage-VokQwo ~ .container-1ov-mD {
+    margin-top: 4px !important;
+}
+
+.container-1ov-mD > span > div > div > .pngImage-33yLRP {
     border-radius: 16px;
     border-top-left-radius: 0px;
+    background-color: var(--background-tertiary);
     box-shadow: var(--elevation-low);
-    overflow: visible !important;
 }
 
 .chat-3bRxxu .form-2fGMdU .channelTextArea-rNsIhG,
@@ -153,16 +167,24 @@ a[href^="http://"] {
     color: hsl(302,calc(var(--saturation-factor, 1)*100%),72.5%) !important;
 }
 
-.tierMarkerAccomplished-2MiXeg, .tierMarkerInProgress-24LMzJ {
-    background: rgb(255, 115, 250) !important;
+.tierMarkerAccomplished-2MiXeg {
+    background-color: rgb(255, 115, 250) !important;
 }
 
-.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
-    background-color: rgb(255, 115, 250) !important;
+.tierMarkerInProgress-24LMzJ  {
+    background-color: transparent !important;
 }
 
 .theme-dark .perk-2WeBWW {
     background-color: var(--background-primary) !important;
+}
+
+.theme-dark .perksModal-1pSu7w {
+    background-color: var(--background-secondary);
+}
+
+.tierMarkerBackground-3q29am, .barBackground-2EEiLw {
+    background-color: var(--background-floating) !important;
 }
 
 /** THREAD FIX */
@@ -265,27 +287,76 @@ a[href^="http://"] {
     padding: 0 16px 0 16px !important;
 }
 
-/** BUBBLE CHANNEL LIST */
-.sidebar-2K8pFh {
-    bottom: 0px;
-    width: 0px;
-    height: calc(100% - 47.988px);
-
-    transition: 0.6s ease;
-    position: fixed;
-    z-index: 1;
-}
-
-.wrapper-3NnKdC:hover + .base-3dtUhz > .content-98HsJk > .sidebar-2K8pFh {
-    width: 240px;
-}
-
-.sidebar-2K8pFh:hover {
-    width: 240px;
-}
-
 .container-3w7J-x {
     margin-right: 7px;
+}
+
+/** BUBBLE CHANNEL LIST */
+[class*="wrapper-"][class*="guilds-"][aria-label] {
+    z-index: 30; 
+}
+
+[class*="sidebar-"] [aria-controls*="popout_"]{
+    z-index: 50;
+}
+
+/* Channel List */
+[class*="base-"] [class*="sidebar-"] {
+    position: fixed;
+    z-index: 1;
+    top: 48px;
+    bottom: 0;
+    left: -240px;
+    transition: 0.6s ease;
+}
+
+/* Hover to channelname and sidebar */
+[class*="base-"] [class*="sidebar-"]:hover {
+    left: 72px;
+}
+
+/* Hover to channelname and sidebar to hide pill*/
+[class*="base-"] [class*="sidebar-"]:hover [class*="modeUnread-"]::after {
+    transform: scale(0);
+    transition: transform 100ms;
+}
+
+/* Titlebar */
+[class*="base-"] [class*="title-"] {
+    z-index: 10;
+}
+
+/* Add mask for titlebar */
+[class*="base-"] [class*="sidebar-"]::before {
+    content: "";
+    position: fixed;
+    left: 72px;
+    top: 50px;
+    width: 60px;
+    height: calc(100% - 47.988px);
+    z-index: 30; 
+}
+
+/* Unread Channel Pill */
+[class*="base-"] [class*="sidebar-"] [class*="modeUnread-"]::after {
+    content: ""; 
+    position: fixed;
+    border-radius: 0 4px 4px 0;
+    top: 41px;
+    left: 71px;
+    width: 4px;
+    height: 8px;
+    background-color: var(--interactive-active);
+}
+
+/* Move the mask, pill, and channel down when streamer mode is enabled */
+[class*="notice-"][class*="colorStreamerMode-"] + [class*="content-"] > [class*="sidebar-"],
+[class*="notice-"][class*="colorStreamerMode-"] + [class*="content-"] > [class*="sidebar-"]::before {
+    top: 58px;
+}
+
+[class*="notice-"][class*="colorStreamerMode-"] + [class*="content-"] > [class*="sidebar-"] [class*="modeUnread-"]::after {
+    top: 78px !important;
 }
 
 /** BUBBLE MEMBER LIST */
