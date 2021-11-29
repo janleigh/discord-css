@@ -42,7 +42,10 @@ html, body {
     font-family: "DM Sans", sans-serif !important;
 }
 
-.markup-2BOw-j code.inline {
+.markup-2BOw-j code.inline,
+.theme-dark .cozy-3raOZG .messageContent-2qWWxC:not(.repliedTextContent-1R3vnK) pre code,
+.after_inlineCode-1KfVgj, .before_inlineCode-1G9rTK, .inlineCode-2ngu6Y,
+.codeBlockText-9TnoxQ, .codeLine-14BKbG {
     font-family: "Iosevka", sans-serif !important;
 }
 
@@ -54,14 +57,14 @@ html, body {
     display: none;
 }
 
-/** TOGGLE SEARCH BAR  */
+/* TOGGLE SEARCH BAR  */
 .searchBar-3dMhjb{
     background-color: var(--background-primary);
     width: 28px;
     transition: width 0.1s ease-in-out;
 }
 
-/** FIX BUTTONS */
+/* FIX BUTTONS */
 .webkit-HjD9Er .buttons-3JBrkn {
     margin: 0 7px 0 0;
 }
@@ -70,7 +73,7 @@ button[aria-label="Select emoji"] {
     margin-bottom: 3px;
 }
 
-/** TEARDROP MESSAGES */
+/* TEARDROP MESSAGES */
 .cozy-3raOZG .messageContent-2qWWxC:not(.repliedTextContent-1R3vnK), .embedFull-2tM8--, .wrapper-35wsBm,
 .message-2qnXI6 .imageWrapper-2p5ogY, .cozy-3raOZG .repliedMessage-VokQwo {
     background-color: #32302f;
@@ -130,26 +133,17 @@ main[aria-label=" (channel)"] .form-2fGMdU .channelTextArea-rNsIhG {
     margin-right: -80px;
 }
 
-/** ALL HTTP LINKS HIGHLIGHTED AS RED */
+/* ALL HTTP LINKS HIGHLIGHTED AS RED */
 a[href^="http://"] {
     color: #ea6962;
 }
 
-/** BLUR USERNAME AND DISCRIM ON CHANNEL LIST */
-.usernameContainer-1fp4nu {
-    filter: blur(2px);
-}
-
-.usernameContainer-1fp4nu:hover {
-    filter: none;
-}
-
-/** SMALLER USER BANNER */
+/* SMALLER USER BANNER */
 .profileBannerPremium-35utuo {
     height: 160px;
 }
 
-/** PADDING FIX */
+/* PADDING FIX */
 .infoScroller-1Qu30O {
     padding: 20px !important;
 }
@@ -162,7 +156,7 @@ a[href^="http://"] {
     padding-right: 16px !important;
 }
 
-/** NITRO ACCENT COLOR FIX */
+/* NITRO ACCENT COLOR FIX */
 .disableColor-2z9rkr, .iconBackgroundTierNone-3ZkOsa, .iconBackgroundTierOne-2OQMBY, .iconBackgroundTierThree-FWlUL9, .iconBackgroundTierTwo-Eab9L6 {
     color: hsl(302,calc(var(--saturation-factor, 1)*100%),72.5%) !important;
 }
@@ -187,7 +181,7 @@ a[href^="http://"] {
     background-color: var(--background-floating) !important;
 }
 
-/** THREAD FIX */
+/* THREAD FIX */
 .container-3hZ-gs {
     background-color: var(--background-tertiary) !important;
     border-radius: 16px;
@@ -195,7 +189,7 @@ a[href^="http://"] {
     box-shadow: var(--elevation-low);
 }
 
-/** MAKE IT LOOK LIKE IRC */
+/* MAKE IT LOOK LIKE IRC */
 .threadMessageAccessory-1pYyA- .threadMessageAccessoryPreview-1uSsue .threadMessageAccessoryContent-1LHM39 {
     background-color: transparent !important;
     box-shadow: none !important;
@@ -208,7 +202,7 @@ a[href^="http://"] {
     margin-right: 0px !important;
 }
 
-/** OTHER SHIT */
+/* OTHER SHIT */
 .activity-3v9l4T {
     padding-bottom: 8px;
 }
@@ -270,12 +264,9 @@ a[href^="http://"] {
     width: 246px !important;
 }
 
-.base-gE7OpD .cooldownWrapper-3joyFc {
-    padding: 0 8px 0 8px !important;
-    background-color: var(--background-tertiary);
-
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
+/* REPLACE KEYBIND BUTTON SHADOW */
+.theme-dark .keybindShortcut-1BD6Z1 span {
+    box-shadow: inset 0 -4px 0 var(--background-secondary);
 }
 
 /* PADDING FIXES */
@@ -287,11 +278,36 @@ a[href^="http://"] {
     padding: 0 16px 0 16px !important;
 }
 
+.scroller-3GIiMh {
+    padding: 16px !important;
+}
+
+/* MARGIN FIXES */
 .container-3w7J-x {
     margin-right: 7px;
 }
 
-/** BUBBLE CHANNEL LIST */
+.wrapper-2tAnRe span {
+    font-size: 90%;
+}
+
+.users-3kndPl {
+    background-color: #32302f;
+}
+
+/* BUBBLE SEARCH RESULTS */
+section[aria-label="Search Results"] {
+    top: 10px !important;
+    right: 0px !important;
+    left: -402px !important;
+    bottom: 0 !important;
+    margin-right: -342px;
+    height: calc(100% - 100px);
+    border-radius: 10px;
+    border: 2px solid var(--background-tertiary);
+}
+
+/* BUBBLE CHANNEL LIST */
 [class*="wrapper-"][class*="guilds-"][aria-label] {
     z-index: 30; 
 }
@@ -333,7 +349,7 @@ a[href^="http://"] {
     left: 72px;
     top: 50px;
     width: 60px;
-    height: calc(100% - 47.988px);
+    height: calc(100% - 16%);
     z-index: 30; 
 }
 
@@ -359,7 +375,7 @@ a[href^="http://"] {
     top: 78px !important;
 }
 
-/** BUBBLE MEMBER LIST */
+/* BUBBLE MEMBER LIST */
 .members-1998pB {
     transition: transform 0.6s;
 }
