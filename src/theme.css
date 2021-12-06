@@ -1,16 +1,17 @@
 @import url("https://raw.githack.com/hormelcookies/dark-discord/hormelcookies-patch-1/src/source.css");
 @import url("https://raw.githack.com/Freeplayg/Discord-TeardropMessages/main/theme.css");
+/* Fonts */
 @import url("https://cdn.jsdelivr.net/gh/aymanbagabas/iosevka-fonts@v6.1.2/dist/iosevka/iosevka.min.css");
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
 
 .theme-dark,
 .theme-light,
 :root {
-    --background-primary: #1d2021 !important;
-    --background-secondary: #1d2021 !important;
-    --background-tertiary: #282828 !important;
-    --background-accent: #689d6a !important;
-    --background-floating: #282828 !important;
+    --background-primary: #101415 !important;
+    --background-secondary: #101415 !important;
+    --background-tertiary: #131718 !important;
+    --background-accent: #84a0c6 !important;
+    --background-floating: #131718 !important;
     --background-modifier-hover: rgba(255, 255, 255, 0.01) !important;
     --background-modifier-active: rgba(255, 255, 255, 0.03) !important;
     --background-modifier-selected: rgba(255, 255, 255, 0.04) !important;
@@ -22,13 +23,13 @@
     --deprecated-text-input-border: var(--background-floating) !important;
     --deprecated-text-input-border-disabled: var(--background-tertiary) !important;
     --activity-card-background: var(--background-primary) !important;
-    --channels-default: #9f9f9f !important;
-    --text-muted: #b6b6b6 !important;
-    --text-normal: #fbfbfb !important;
-    --interactive-normal: #c8c8c8 !important;
-    --interactive-hover: #dcddde !important;
+    --channels-default: #b7b8b8 !important;
+    --text-muted: #c4c4c4 !important;
+    --text-normal: #c5c8c9 !important;
+    --interactive-normal: #c4c4c4 !important;
+    --interactive-hover: #b7b8b8 !important;
     --interactive-active: #fff !important;
-    --interactive-muted: #747474 !important;
+    --interactive-muted: #b7b8b8 !important;
     --header-primary: white !important;
     --header-secondary: #c9c9c9 !important;
     --toast-background: var(--background-primary) !important;
@@ -38,7 +39,7 @@
     --toast-border: var(--background-tertiary) !important;
 }
 
-html, body {
+html, body, input {
     font-family: "DM Sans", sans-serif !important;
 }
 
@@ -76,15 +77,15 @@ button[aria-label="Select emoji"] {
 /* TEARDROP MESSAGES */
 .cozy-3raOZG .messageContent-2qWWxC:not(.repliedTextContent-1R3vnK), .embedFull-2tM8--, .wrapper-35wsBm,
 .message-2qnXI6 .imageWrapper-2p5ogY, .cozy-3raOZG .repliedMessage-VokQwo {
-    background-color: #32302f;
+    background-color: #151a1c;
 }
 
 .cozy-3raOZG .repliedMessage-VokQwo ~ .contents-2mQqc9 > .messageContent-2qWWxC:first-of-type::before {
-    background-color: #32302f;
+    background-color: #151a1c;
 }
 
 .theme-dark .cozy-3raOZG .messageContent-2qWWxC:not(.repliedTextContent-1R3vnK), .theme-dark .embedFull-2tM8-- {
-    background-color: var(--background-floating);
+    background-color: #192022;
     font-weight: 400;
 }
 
@@ -99,8 +100,12 @@ button[aria-label="Select emoji"] {
 .container-1ov-mD > span > div > div > .pngImage-33yLRP {
     border-radius: 16px;
     border-top-left-radius: 0px;
-    background-color: var(--background-tertiary);
+    background-color: #192022;
     box-shadow: var(--elevation-low);
+}
+
+.attachment-33OFj0 {
+    background-color: #192022 !important;
 }
 
 .chat-3bRxxu .form-2fGMdU .channelTextArea-rNsIhG,
@@ -111,7 +116,7 @@ button[aria-label="Select emoji"] {
 
 .chat-3bRxxu .jumpToPresentBar-G1R9s6,
 .replyBar-1YLQ2F {
-    background-color: #32302f;
+    background-color: #151a1c;
     margin-right: -36px;
 }
 
@@ -135,7 +140,7 @@ main[aria-label=" (channel)"] .form-2fGMdU .channelTextArea-rNsIhG {
 
 /* ALL HTTP LINKS HIGHLIGHTED AS RED */
 a[href^="http://"] {
-    color: #ea6962;
+    color: #c26f6f;
 }
 
 /* SMALLER USER BANNER */
@@ -205,10 +210,6 @@ a[href^="http://"] {
 /* OTHER SHIT */
 .activity-3v9l4T {
     padding-bottom: 8px;
-}
-
-.attachment-33OFj0 {
-    background-color: var(--background-tertiary);
 }
 
 .container-1_ClKi {
@@ -292,7 +293,7 @@ a[href^="http://"] {
 }
 
 .users-3kndPl {
-    background-color: #32302f;
+    background-color: #151a1c;
 }
 
 /* BUBBLE SEARCH RESULTS */

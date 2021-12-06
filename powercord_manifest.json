@@ -1,6 +1,6 @@
 {
     "name": "discord-css",
-    "version": "0.4.0",
+    "version": "0.5.0",
     "theme": "src/theme.css",
 
     "author": "TheRealKizu#3267",
