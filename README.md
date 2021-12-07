@@ -1,4 +1,4 @@
-<img src="https://cdn.xndr.tech/u/MnXIenZ.png">
+<img src="https://cdn.xndr.tech/u/8AWCRIg.png">
 
 ### ❖ Supported CSS Injectors
 
