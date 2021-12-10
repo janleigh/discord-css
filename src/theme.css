@@ -80,7 +80,7 @@ button[aria-label="Select emoji"] {
     background-color: #151a1c;
 }
 
-.cozy-3raOZG .repliedMessage-VokQwo ~ .contents-2mQqc9 > .messageContent-2qWWxC:first-of-type::before {
+.theme-dark .cozy-3raOZG .repliedMessage-VokQwo ~ .contents-2mQqc9 > .messageContent-2qWWxC:first-of-type::before {
     background-color: #151a1c;
 }
 
@@ -91,6 +91,12 @@ button[aria-label="Select emoji"] {
 
 .theme-dark .cozy-3raOZG .messageContent-2qWWxC:not(.repliedTextContent-1R3vnK) pre code {
     background-color: var(--background-primary);
+}
+
+.theme-dark .cozy-3raOZG.message-2qnXI6.mentioned-xhSam7 .messageContent-2qWWxC:not(.repliedTextContent-1R3vnK) {
+    background-color: #192022 !important;
+    border-color: #84a0c6 !important;
+    border-width: 3px;
 }
 
 .repliedMessage-VokQwo ~ .container-1ov-mD {
@@ -265,6 +271,11 @@ a[href^="http://"] {
     width: 246px !important;
 }
 
+.flex-1xMQg5 button {
+    background-color: var(--background-tertiary);
+    margin: 0 2px;
+}
+
 /* REPLACE KEYBIND BUTTON SHADOW */
 .theme-dark .keybindShortcut-1BD6Z1 span {
     box-shadow: inset 0 -4px 0 var(--background-secondary);
@@ -349,7 +360,7 @@ section[aria-label="Search Results"] {
     position: fixed;
     left: 72px;
     top: 50px;
-    width: 60px;
+    width: 40px;
     height: calc(100% - 16%);
     z-index: 30; 
 }
