@@ -54,6 +54,10 @@
 
     .scroller-3BxosC {
         padding: 8px !important;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
     }
 
     .header-2V-4Sw {

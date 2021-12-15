@@ -1,9 +1,9 @@
 {
     "name": "discord-css",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "theme": "dist/main.css",
 
     "author": "TheRealKizu#3267",
-    "description": "My custom discord theme for my Linux rice.",
-    "license": "UNLICENSE"
+    "description": "a funny discord theme.",
+    "license": "Unlicense"
 }

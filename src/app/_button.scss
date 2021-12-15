@@ -1,9 +1,20 @@
-.webkit-HjD9Er {
-    .buttons-3JBrkn {
-        margin: 0 7px 0 0;
-    }
-}
+.theme-dark,
+.theme-light {
+    .flex-1xMQg5 button {
+        background-color: var(--background-modifier-active) !important;
 
-button[aria-label="Select emoji"] {
-    margin-bottom: 3px;
+        &:hover {
+            background-color: var(--background-modifier-accent) !important;
+        }
+    }
+
+    .webkit-HjD9Er {
+        .buttons-3JBrkn {
+            margin: 0 7px 0 0;
+        }
+    }
+
+    button[aria-label="Select emoji"] {
+        margin-bottom: 3px;
+    }
 }

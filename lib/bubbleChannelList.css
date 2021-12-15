@@ -66,5 +66,5 @@
 }
 
 [aria-label="User area"] {
-    background-color: var(--background-tertiary) !important;
+    background-color: var(--deprecated-card-editable-bg) !important;
 }
