@@ -1,14 +1,14 @@
 .cozy-3raOZG .messageContent-2qWWxC:not(.repliedTextContent-1R3vnK), .embedFull-2tM8--, .wrapper-35wsBm,
 .message-2qnXI6 .imageWrapper-2p5ogY, .cozy-3raOZG .repliedMessage-VokQwo {
-    background-color: #151a1c;
+    background-color: #151a1c !important;
 }
 
 .theme-dark .cozy-3raOZG .repliedMessage-VokQwo ~ .contents-2mQqc9 > .messageContent-2qWWxC:first-of-type::before {
-    background-color: #151a1c;
+    background-color: #151a1c !important;
 }
 
 .theme-dark .cozy-3raOZG .messageContent-2qWWxC:not(.repliedTextContent-1R3vnK), .theme-dark .embedFull-2tM8-- {
-    background-color: #192022;
+    background-color: #192022 !important;
     font-weight: 400;
 }
 
@@ -30,7 +30,7 @@
 .container-1ov-mD > span > div > div > .pngImage-33yLRP {
     border-radius: 16px;
     border-top-left-radius: 0px;
-    background-color: #192022;
+    background-color: #192022 !important;
     box-shadow: var(--elevation-low);
 }
 
