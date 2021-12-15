@@ -1,0 +1,43 @@
+@import "../../variables";
+
+.theme-dark,
+.theme-light {
+    main[aria-label=" (channel)"] .form-2fGMdU .channelTextArea-rNsIhG {
+        margin-left: 0px !important;
+    }
+
+    .contentWrapper-SvZHNd {
+        margin-left: 28px;
+        margin-right: -28px;
+    }
+    
+    .newMessagesBar-265mhP,
+    .chatHeaderBar-4vZS1x {
+        margin-right: -80px;
+    }
+
+    .divider-23swzi,
+    .wrapper-1-Fsb8 {
+        background-color: var(--background-primary);
+    }
+
+    .keybindShortcut-1BD6Z1 span {
+        box-shadow: inset 0 -4px 0 var(--background-secondary);
+    }
+
+    .messagesWrapper-1sRNjr {
+        width: 100% + 2%;
+    }
+
+    .selected-1Tbx07 {
+        background-color: var(--background-tertiary);
+    }
+
+    .uploadModal-2ifh8j {
+        transform: translateX(32px);
+    }
+
+    .users-3kndPl {
+        background-color: #151a1c;
+    }
+}

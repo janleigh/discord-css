@@ -1,0 +1,16 @@
+section[aria-label="Search Results"] {
+    top: 10px !important;
+    right: 0px !important;
+    left: -402px !important;
+    bottom: 0 !important;
+    margin-right: -342px;
+    height: calc(100% - 100px);
+    border-radius: 10px;
+    border: 2px solid var(--background-tertiary);
+}
+
+.searchBar-3dMhjb{
+    background-color: var(--background-primary);
+    width: 28px;
+    transition: width 0.1s ease-in-out;
+}
