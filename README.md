@@ -1,3 +1,5 @@
+<h2 align="center"> ━━━━━━  ❖  ━━━━━━ </h2>
+
 <img src="https://cdn.xndr.tech/u/8AWCRIg.png">
 
 ### ❖ Supported CSS Injectors

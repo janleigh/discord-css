@@ -9,8 +9,8 @@
 /* Channel List */
 [class*="base-"] [class*="sidebar-"] {
     position: fixed;
-    z-index: 1;
-    top: 48px;
+    z-index: 20;
+    top: 0px;
     bottom: 0;
     left: -240px;
     transition: 0.6s ease;
@@ -37,9 +37,9 @@
     content: "";
     position: fixed;
     left: 72px;
-    top: 50px;
-    width: 40px;
-    height: calc(100% - 16%);
+    top: 20px;
+    width: 160px;
+    height: 48px;
     z-index: 30; 
 }
 

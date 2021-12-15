@@ -38,14 +38,26 @@
     background-color: #192022 !important;
 }
 
-.chat-3bRxxu .form-2fGMdU .channelTextArea-rNsIhG,
-.jumpToPresentBar-G1R9s6 {
-    margin-left: 36px !important;
-    margin-right: -36px !important;
+.scrollableContainer-2NUZem {
+    filter: brightness(1.2);
+}
+
+.chat-3bRxxu .form-2fGMdU .channelTextArea-rNsIhG {
+    margin: 0px 24px 24px 28px;
 }
 
 .chat-3bRxxu .jumpToPresentBar-G1R9s6,
 .replyBar-1YLQ2F {
     background-color: #151a1c;
-    margin-right: -36px;
+}
+
+.jumpToPresentBar-G1R9s6 {
+    visibility: hidden;
+    bottom: 15px;
+}
+.barButtonIcon-3t4V3d {
+    visibility: visible;
+    padding: 11px;
+    background-color: var(--background-tertiary);
+    border-radius: 50%;
 }

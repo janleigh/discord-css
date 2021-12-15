@@ -1,12 +1,14 @@
 section[aria-label="Search Results"] {
     right: 0px !important;
     left: -402px !important;
-    bottom: 0 !important;
+    bottom: 0px !important;
+    top: -3px !important;
     margin-right: -342px;
     height: calc(100% - 100px);
     border-radius: 10px;
     border: 2px solid var(--background-tertiary);
-    box-shadow: var(--elevation-stroke),var(--elevation-high);
+    box-shadow: var(--elevation-stroke), var(--elevation-high);
+    z-index: 30;
 }
 
 .searchBar-3dMhjb{

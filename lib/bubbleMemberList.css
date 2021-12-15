@@ -10,7 +10,7 @@
 }
 
 .membersWrap-2h-GB4::-webkit-scrollbar {
-    display: none;
+    display: none !important;
 }
 
 .membersWrap-2h-GB4:hover .members-1998pB {
