@@ -9,9 +9,17 @@
         margin-right: -28px;
     }
     
-    .newMessagesBar-265mhP,
     .chatHeaderBar-4vZS1x {
         margin-right: -80px;
+    }
+
+    .newMessagesBar-265mhP {
+        display: none !important;
+    }
+
+    .messagesErrorBar-nyJGU7 {
+        width: 95%;
+        margin-left: 30px;
     }
 
     .divider-23swzi,
