@@ -1,10 +1,18 @@
 .theme-dark,
 .theme-light {
-    .flex-1xMQg5 button {
-        background-color: var(--background-modifier-active) !important;
+    section[aria-label="User area"] {
+        button {
+            background-color: var(--background-modifier-active);
+    
+            &:hover {
+                background-color: var(--background-modifier-accent);
+            }
+        }
 
-        &:hover {
-            background-color: var(--background-modifier-accent) !important;
+        .labelWrapper-Pniq53 {
+            button {
+                background-color: transparent !important;
+            }
         }
     }
 
