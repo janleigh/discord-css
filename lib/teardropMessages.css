@@ -1,10 +1,14 @@
 .cozy-3raOZG .messageContent-2qWWxC:not(.repliedTextContent-1R3vnK), .embedFull-2tM8--, .wrapper-35wsBm,
-.message-2qnXI6 .imageWrapper-2p5ogY, .cozy-3raOZG .repliedMessage-VokQwo {
+.cozy-3raOZG .repliedMessage-VokQwo {
     background-color: #151a1c !important;
 }
 
 .theme-dark .cozy-3raOZG .repliedMessage-VokQwo ~ .contents-2mQqc9 > .messageContent-2qWWxC:first-of-type::before {
     background-color: #151a1c !important;
+}
+
+.message-2qnXI6 .imageWrapper-2p5ogY {
+    background-color: #192022 !important;
 }
 
 .theme-dark .cozy-3raOZG .messageContent-2qWWxC:not(.repliedTextContent-1R3vnK), .theme-dark .embedFull-2tM8-- {
@@ -60,4 +64,13 @@
     padding: 11px;
     background-color: var(--background-tertiary);
     border-radius: 50%;
+}
+
+/* TEMP FIX */
+.mentioned-Tre-dv {
+    background-color: transparent !important;
+}
+
+.mentioned-Tre-dv:before {
+    background-color: #84a0c6 !important;
 }

@@ -1,11 +1,7 @@
 <h2 align="center"> ━━━━━━  ❖  ━━━━━━ </h2>
 
-<img src="https://cdn.xndr.tech/u/8AWCRIg.png">
+<img src="https://cdn.xndr.tech/u/8AWCRIg.png" alt="theme preview">
 
-### ❖ Supported CSS Injectors
+### ❖ Installation
 
-   * [Powercord](https://powercord.dev)
-
-### ❖ Note
-
-   * Using third-party clients is against [Discord ToS](https://discord.com/terms). Use at your own risk. 
+   * [Powercord](https://powercord.dev): `git clone https://github.com/janleigh/discord-css`

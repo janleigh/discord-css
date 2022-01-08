@@ -1,3 +1,15 @@
+.theme-dark .container-2McqkF {
+    background-color: var(--background-tertiary) !important;
+}
+
+.theme-dark .searchAnswer-23w-CH, .theme-dark .searchFilter-2UfsDk {
+    background-color: var(--background-primary) !important;
+}
+
+.theme-dark .option-2KkUJO:after {
+    background: none !important;
+}
+
 section[aria-label="Search Results"] {
     right: 0px !important;
     left: -360px !important;

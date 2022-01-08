@@ -40,7 +40,7 @@
         background-color: var(--background-primary);
     }
 
-    .embedFull-2tM8-- {
+    .embedFull-1HGV2S {
         background-color: var(--background-tertiary);
     }
 
@@ -97,4 +97,14 @@
         display: flex;
         flex-direction: column-reverse;
     } */
+
+    a[href^="http://"] {
+        color: #f65b5b !important;
+    }
+
+    /* SEARCH BAR */
+    .searchBar-zdmu7v {
+        border-radius: 8px;
+    }
+    
 }
