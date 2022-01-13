@@ -5,7 +5,6 @@
 @forward "../lib/bubbleMemberList.css";
 @forward "../lib/bubbleSearchResults.css";
 @forward "../lib/ircLook.css";
-@forward "../lib/slideupAnimation.scss";
 @forward "../lib/teardropMessages.css";
 
 /* Main Imports */
@@ -18,4 +17,5 @@
 @import "./app/overrides/nitro";
 @import "./app/overrides/scrollbar";
 @import "./app/overrides/scroller";
+@import "./app/overrides/settings";
 @import "./app/overrides/powercord/powercord";

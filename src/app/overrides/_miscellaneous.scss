@@ -36,12 +36,9 @@
         right: 30px;
     }
 
-    .markup-eYLPri code {
-        background-color: var(--background-tertiary);
-    }
-
-    .embedFull-1HGV2S {
-        background-color: var(--background-tertiary);
+    .markup-eYLPri code,
+    .embedFull-1HGV2S  {
+        background-color: #192022;
     }
 
     .emptyChannelIcon-cc932w {
@@ -68,6 +65,10 @@
     .flex-1xMQg5 button {
         background-color: var(--background-tertiary);
         margin: 0 2px;
+    }
+
+    .unread-2wipsx {
+        background-color: #192022;
     }
 
     /* PADDING FIXES */
