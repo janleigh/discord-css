@@ -5,7 +5,6 @@
 @forward "../lib/bubbleMemberList.css";
 @forward "../lib/bubbleSearchResults.css";
 @forward "../lib/ircLook.css";
-@forward "../lib/teardropMessages.css";
 
 /* Main Imports */
 @import "./app/button";
@@ -19,3 +18,4 @@
 @import "./app/overrides/scroller";
 @import "./app/overrides/settings";
 @import "./app/overrides/powercord/powercord";
+@import "./app/overrides/teardrop/teardropMessages";
