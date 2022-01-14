@@ -11,6 +11,7 @@
 :root {
     --background-primary: #101415 !important;
     --background-secondary: #101415 !important;
+    --background-secondary-alt: #151a1c !important;
     --background-tertiary: #131718 !important;
     --background-accent: var(--brand-experiment) !important;
     --background-floating: #131718 !important;
@@ -18,7 +19,7 @@
     --background-modifier-active: rgba(255, 255, 255, 0.03) !important;
     --background-modifier-selected: rgba(255, 255, 255, 0.04) !important;
     --background-modifier-accent: hsla(0, 0%, 100%, 0.06) !important;
-    --channeltextarea-background: var(--background-tertiary) !important;
+    --channeltextarea-background: var(--background-secondary-alt) !important;
     --deprecated-card-bg: rgba(0, 0, 0, 0.2) !important;
     --deprecated-card-editable-bg: rgba(0, 0, 0, 0.1) !important;
     --deprecated-text-input-bg: var(--deprecated-card-editable-bg) !important;

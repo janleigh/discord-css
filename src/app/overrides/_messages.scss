@@ -54,16 +54,31 @@
         }
     }
 
+    .cozy-VmLDNB.hasThread-3h-KJV {
+        &::after {
+            border-color: #192022;
+        }
+    }
+
     /* AUTOCOMPLETE */
+    .categoryHeader-OpJ1Ly {
+        background-color: transparent;
+    }
+
     .autocomplete-3NRXG8 {
         background-color: var(--background-primary);
     }
 
     .replyBar-1oi75v {
-        background-color: #151a1c;
+        background-color: var(--background-tertiary);
     }
 
     .selected-3H3-RC {
         background-color: #192022;
+    }
+
+    /* SOME MODALS */
+    .message-G6O-Wv {
+        background-color: var(--background-primary);
     }
 }
