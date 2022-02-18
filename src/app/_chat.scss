@@ -33,4 +33,19 @@
         background-color: #151a1c;
         margin-right: 0px;
     }
+
+    .option-ayUoaq {
+        &::after {
+            background: none;
+        }
+    }
+
+    .calendarPicker-sDhzdi .react-datepicker,
+    .calendarPicker-sDhzdi .react-datepicker__header {
+        background-color: var(--background-tertiary);
+    }
+
+    .calendarPicker-sDhzdi .react-datepicker__day--disabled, .calendarPicker-sDhzdi .react-datepicker__day--outside-month, .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--disabled, .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--disabled:hover {
+        background-color: var(--background-primary);
+    }
 }
