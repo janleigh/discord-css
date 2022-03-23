@@ -158,5 +158,11 @@
     .assetsLargeImageStreamPreview-3peV91, .assetsLargeImageUserPopout-pY2WJv, .assetsLargeImageUserPopoutXbox-tkbJgJ {
         border-radius: 6px;
     }
+
+    .keybindShortcut-3zF1P9 span {
+        background-color: #192022;
+        -webkit-box-shadow: inset 0 -4px 0 var(--background-secondary-alt);
+        box-shadow: inset 0 -4px 0 var(--background-secondary-alt);
+    }
     
 }
