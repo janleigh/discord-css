@@ -81,4 +81,26 @@
     .message-G6O-Wv {
         background-color: var(--background-primary);
     }
+
+    /* SERVER BANNER IMAGE */
+    .inviteSplash-2nkLRX {
+        border-top-left-radius: 0px !important;
+        border-top-right-radius: 16px !important;
+        margin: -14px -12px;
+    }
+
+    /* REACTION LIST MODAL */
+    .container-KM8BU6, .reactors-1VXca7 {
+        background-color: var(--background-tertiary);
+    }
+    .scroller-2GkvCq {
+        background-color: #151a1c;
+    }
+    .reactionSelected-1aMb2K {
+        background-color: #192022;
+    }
+    .reactorDefault-3GSyaV {
+        box-shadow: inset 0 -1px 0 #192022;
+        -webkit-box-shadow: inset 0 -1px 0 #192022;
+    }
 }
