@@ -7,7 +7,11 @@
         }
 
         [aria-label="User area"] {
-            background-color: var(--deprecated-card-editable-bg) !important;
+            background-color: var(--deprecated-card-editable-bg);
+        }
+
+        .users-2JoyGL {
+            background-color: var(--background-tertiary);
         }
     }
 }
