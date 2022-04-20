@@ -1,10 +1,28 @@
 {
-  "name": "discord-css",
-  "version": "1.0.5",
-  "repository": "https://github.com/janleigh/discord-css.git",
-  "author": "Jan Leigh Muñoz <janleigh@pm.me>",
+  "name": "kizucord",
+  "description": "My personal discord theme.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Jan Leigh Muñoz",
+    "email": "janleigh@pm.me"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janleigh/discord-css.git"
+  },
+  "bugs": {
+    "url": "https://github.com/janleigh/discord-css/"
+  },
   "license": "Unlicense",
+  "scripts": {
+    "build": "yarn build:clean && yarn compile",
+    "build:clean": "yarn rimraf ./dist/",
+    "build:minify": "yarn css-minify -f ./dist/index.css -o ./dist/",
+    "compile": "yarn sass ./src/index.scss ./dist/index.css"
+  },
   "devDependencies": {
-    "scss": "^0.2.4"
+    "css-minify": "^2.0.0",
+    "rimraf": "^3.0.2",
+    "sass": "^1.50.1"
   }
 }

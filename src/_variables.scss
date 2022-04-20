@@ -1,0 +1,19 @@
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://cdn.jsdelivr.net/gh/aymanbagabas/iosevka-fonts@v6.1.2/dist/iosevka/iosevka.min.css");
+
+:root {
+    --font-monospace: "Iosevka", monospace;
+    --font-sans-serif: "DM Sans", "Manrope", sans-serif;
+
+    --primary-background: #0B0F10;
+    --secondary-background: #101415;   
+    --tertiary-background: #131718;
+    --tertiary-background-alt: #151a1c;
+
+    --primary-foreground: #C5C8C9;
+    --secondary-foreground: #C4C4C4;
+    --tertiary-foreground: #B7B8B8;
+    --dimmed-foreground: #6e7071;
+}
