@@ -14,4 +14,8 @@
     .cozy-VmLDNB .repliedMessage-3Z6XBG ~ .contents-2MsGLg > .messageContent-2t3eCI:first-of-type {
         background-color: var(--background-tertiary);
     }
+
+    .cozy-VmLDNB .messageContent-2t3eCI:not(.repliedTextContent-2hOYMB) pre code {
+        background-color: var(--background-secondary) !important;
+    }
 }
