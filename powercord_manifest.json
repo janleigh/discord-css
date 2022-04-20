@@ -1,6 +1,6 @@
 {
     "name": "discord-css",
-    "version": "1.0.5",
+    "version": "1.0.0-rewrite",
     "theme": "dist/index.css",
 
     "author": "Kizu#3267",
