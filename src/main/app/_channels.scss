@@ -1,9 +1,13 @@
 #app-mount {
     .sidebar-1tnWFu {
-        background-color: var(--background-tertiary);
+        background-color: var(--background-secondary);
 
         .container-1NXEtd {
             background-color: inherit !important;
+        }
+
+        [aria-label="User area"] {
+            background-color: var(--deprecated-card-editable-bg) !important;
         }
     }
 }

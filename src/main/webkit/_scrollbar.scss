@@ -1,8 +1,8 @@
 ::-webkit-scrollbar-track {
-    color: transparent;
-    background: transparent;
+    color: transparent !important;
+    background: transparent !important;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: var(--tertiary-background-alt);
+    background-color: var(--tertiary-background-alt) !important;
 }

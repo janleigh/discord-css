@@ -1,0 +1,19 @@
+#app-mount {
+    .cozy-VmLDNB .messageContent-2t3eCI:not(.repliedTextContent-2hOYMB), .embedFull-1HGV2S {
+        background-color: var(--background-tertiary);
+    }
+
+    .cozy-VmLDNB .repliedMessage-3Z6XBG, .repliedMessage-3Z6XBG ~ .contents-2MsGLg > .messageContent-2t3eCI:first-of-type {
+        background-color: var(--tertiary-background-alt);
+
+        &::before {
+            background-color: var(--tertiary-background-alt);
+        }
+    }
+
+    .cozy-VmLDNB .repliedMessage-3Z6XBG ~ .contents-2MsGLg > .messageContent-2t3eCI:first-of-type {
+        background-color: var(--background-tertiary);
+    }
+
+
+}

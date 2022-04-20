@@ -6,8 +6,14 @@
         }
     }
 
-    .chat-2ZfjoI {
+    .chat-2ZfjoI, .container-ZMc96U.themed-Hp1KC_ {
         background-color: var(--background-secondary);
+    }
+
+    .children-3xh0VB {
+        &::after {
+            background: none;
+        }
     }
 
     .form-3gdLxP {
@@ -15,19 +21,23 @@
             transform: translateY(-0em);
             transition: 0.25s;
 
-            &[aria-label="Send a gift"] {
-                display: none;
-            }
-
             &:hover,
             &:focus {
                 transform: translateY(-0.1em);
             }
         }
+
+        &::before {
+            background: none;
+        }
         
         .buttons-uaqb-5 {
-            &:nth-child(2),
-            &:nth-child(3) {
+            button[aria-label="Send a gift or Boost this server"] {
+                display: none;
+            }
+
+            button[aria-label="Open GIF picker"],
+            button[aria-label="Open sticker picker"] {
                 margin-top: 4px;
             }
         }

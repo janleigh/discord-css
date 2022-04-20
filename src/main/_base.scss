@@ -1,5 +1,10 @@
 @import "./app/channels";
 @import "./app/chat";
+@import "./app/messages";
 @import "./app/userarea";
+@import "./app/modals/messageActions";
+@import "./app/modals/search";
+@import "./app/pages/discovery";
+@import "./app/pages/friendsList";
 @import "./webkit/scrollbar";
 @import "./webkit/scroller";

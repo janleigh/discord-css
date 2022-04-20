@@ -1,0 +1,22 @@
+section[aria-label="Search Results"] {
+    right: 0px !important;
+    left: -360px !important;
+    bottom: 0px !important;
+    top: -3px !important;
+    margin-right: -342px;
+    height: calc(100% - 100px);
+    border-radius: 10px;
+    border: 2px solid var(--background-tertiary);
+    box-shadow: var(--elevation-stroke), var(--elevation-high);
+    z-index: 30;
+}
+
+.searchResult-O9NDji {
+    background-color: var(--background-secondary);
+}
+
+.searchBar-jGtisZ {
+    background-color: var(--background-secondary);
+    width: 28px;
+    transition: width 0.1s ease-in-out;
+}
