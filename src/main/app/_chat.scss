@@ -6,7 +6,11 @@
         }
     }
 
-    .chat-2ZfjoI, .container-ZMc96U.themed-Hp1KC_ {
+    .chat-2ZfjoI, .container-ZMc96U.themed-Hp1KC_, .container-3XgAHv {
+        background-color: var(--background-secondary);
+    }
+
+    .wrapper-3HVHpV, .wrapper-15CKyy {
         background-color: var(--background-secondary);
     }
 
@@ -15,6 +19,26 @@
             background: none;
         }
     }
+
+    .container-3i3IzO {
+        background-color: var(--background-tertiary) !important;
+        border-radius: 16px;
+        border-top-left-radius: 0px !important;
+    }
+
+    .threadMessageAccessory-2W9mjC {
+        .threadMessageAccessoryPreview-13YRmc .threadMessageAccessoryContent-1HTTUq {
+            background-color: transparent !important;
+            box-shadow: none !important;
+            margin-bottom: 4px;
+        }
+    }
+
+    .hasThread-3h-KJV {
+        &::after {
+            border-color: #192022;
+        }
+    } 
 
     .form-3gdLxP {
         button {
@@ -32,14 +56,15 @@
         }
         
         .buttons-uaqb-5 {
-            button[aria-label="Send a gift or Boost this server"] {
-                display: none;
-            }
-
+            button[aria-label="Send a gift or Boost this server"],
             button[aria-label="Open GIF picker"],
             button[aria-label="Open sticker picker"] {
-                margin-top: 4px;
+                margin-top: 3px;
             }
         }
+    }
+
+    .replyBar-1oi75v, .threadSuggestionBar-3ExSyc {
+        background-color: var(--background-tertiary);
     }
 }

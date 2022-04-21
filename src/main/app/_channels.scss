@@ -6,12 +6,16 @@
             background-color: inherit !important;
         }
 
-        [aria-label="User area"] {
-            background-color: var(--deprecated-card-editable-bg);
+        .unread-2wipsx {
+            background-color: var(--dimmed-foreground);
         }
 
         .users-2JoyGL {
             background-color: var(--background-tertiary);
+        }
+
+        [aria-label="User area"] {
+            background-color: var(--deprecated-card-editable-bg);
         }
     }
 }

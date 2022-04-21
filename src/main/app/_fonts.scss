@@ -1,17 +1,11 @@
-::placeholder,
+html,
 body,
-button,
-input,
-span,
-div,
-select,
-textarea {
+input {
     font-family: var(--font-sans-serif);
 }
 
-.markup-eYLPri code.inline,
 code.inline,
 pre code,
 .codeBlockText-311wOq, .codeLine-3a3dbd {
-    font-family: var(--font-monospace);
+    font-family: var(--font-monospace) !important;
 }
