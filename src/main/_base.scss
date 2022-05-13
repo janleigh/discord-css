@@ -4,16 +4,25 @@
 @import "./app/guilds";
 @import "./app/messages";
 @import "./app/userarea";
+
 @import "./app/modals/accountSwitcher";
 @import "./app/modals/invite";
 @import "./app/modals/keyboardCombos";
 @import "./app/modals/messageActions";
 @import "./app/modals/messageAutocomplete";
+@import "./app/modals/reactionList";
 @import "./app/modals/search";
+@import "./app/modals/threads";
 @import "./app/modals/userCustomStatus";
+@import "./app/modals/userProfile";
+
 @import "./app/pages/discovery";
 @import "./app/pages/friendsList";
+
 @import "./app/uncategorized/index";
+
+@import "./powercord/modals/buttons";
 @import "./powercord/modals/powercordUpdater";
+
 @import "./webkit/scrollbar";
 @import "./webkit/scroller";

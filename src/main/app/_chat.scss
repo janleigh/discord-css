@@ -1,7 +1,8 @@
 #app-mount {
     section[aria-label="Channel header"] {
         div[aria-label="Help"],
-        div[aria-label="Notification Settings"] {
+        div[aria-label="Notification Settings"],
+        div[aria-label="Hide Member List"] {
             display: none;
         }
     }
@@ -75,6 +76,10 @@
                 margin-top: 3px;
             }
         }
+    }
+
+    .categoryHeader-OpJ1Ly {
+        background-color: var(--tertiary-background-alt);
     }
 
     .replyBar-1oi75v, .threadSuggestionBar-3ExSyc {

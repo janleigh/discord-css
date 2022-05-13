@@ -5,7 +5,11 @@
         }
     }
 
-    .searchAnswer-23w-CH, .searchFilter-2UfsDk, .focused-2FU0YH {
-        background-color: var(--background-primary);
+    .searchFilter-2UfsDk {
+        background-color: var(--background-secondary);
+        padding: 0 4px;
+    }
+    .searchAnswer-23w-CH, .focused-2FU0YH {
+        background-color: var(--background-tertiary);
     }
 }

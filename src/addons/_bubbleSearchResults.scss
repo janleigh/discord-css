@@ -16,7 +16,8 @@ section[aria-label="Search Results"] {
 }
 
 .searchBar-jGtisZ {
-    background-color: var(--background-secondary);
-    width: 28px;
-    transition: width 0.1s ease-in-out;
+    background-color: var(--background-primary);
+    // width: 28px;
+    // transition: width 0.1s ease-in-out;
+    padding: 2px 8px;
 }
