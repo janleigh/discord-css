@@ -24,22 +24,9 @@
     }
 }
 
-/* spinning spotify art */
-/* Spotify Covers Go Wheeeee */
-/* profile */
 .assetsLargeImageSpotify-17ME3M {
-    animation: spin 9s linear infinite;
-    border-radius: 50%
+    border-radius: 6px;
 }
 .spotify-cover {
-    animation: spin 9s linear infinite;
-}
-/* the animation  */
-@keyframes spin {
-    from {
-      transform: rotate(0);
-    }
-    to {
-      transform: rotate(360deg);
-    }
+    border-radius: 6px;
 }
