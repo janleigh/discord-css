@@ -48,7 +48,8 @@
 @import "./main/base";
 /* LOAD ADDONS */
 @import url("https://raw.githack.com/absumm/TeardropFixes/main/theme.css");
+@import "./addons/betterJumpToMessageButton";
 @import "./addons/bubbleChannelList";
 @import "./addons/bubbleMemberList";
 @import "./addons/bubbleSearchResults";
-@import "./addons/betterJumpToMessageButton";
+@import "./addons/removeAnnoyingEventsButton";
