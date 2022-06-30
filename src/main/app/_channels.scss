@@ -14,6 +14,13 @@
             background-color: var(--background-tertiary);
         }
 
+        .modeSelected-3DmyhH .content-1gYQeQ, .modeSelected-3DmyhH:hover .content-1gYQeQ {
+            border-left: 4px solid var(--accent);
+
+            // Border radius where top-left and bottom-right corners are not rounded
+            border-radius: 0px 4px 4px 0px;
+        }
+
         [aria-label="User area"] {
             background-color: var(--deprecated-card-editable-bg);
         }
