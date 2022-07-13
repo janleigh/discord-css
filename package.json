@@ -18,10 +18,13 @@
     "build": "yarn build:clean && yarn compile",
     "build:clean": "yarn rimraf ./dist/",
     "build:minify": "yarn css-minify -f ./dist/index.css -o ./dist/",
-    "compile": "yarn sass ./src/index.scss ./dist/index.css"
+    "compile": "yarn sass ./src/index.scss ./dist/index.css",
+	"format": "prettier --write src",
+    "format:check": "prettier --check src"
   },
   "devDependencies": {
     "css-minify": "^2.0.0",
+    "prettier": "^2.7.1",
     "rimraf": "^3.0.2",
     "sass": "^1.50.1"
   }

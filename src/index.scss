@@ -6,43 +6,43 @@
 .theme-dark,
 .theme-light,
 :root {
-    --header-primary: var(--primary-foreground);
-    --header-secondary: var(--secondary-foreground);
-    --text-normal: var(--primary-foreground);
-    --text-muted: var(--secondary-foreground);
-    --interactive-normal: var(--tertiary-foreground);
-    --interactive-hover: var(--secondary-foreground);
-    --interactive-active: var(--primary-foreground);
-    --interactive-muted: var(--dimmed-foreground);
+	--header-primary: var(--primary-foreground);
+	--header-secondary: var(--secondary-foreground);
+	--text-normal: var(--primary-foreground);
+	--text-muted: var(--secondary-foreground);
+	--interactive-normal: var(--tertiary-foreground);
+	--interactive-hover: var(--secondary-foreground);
+	--interactive-active: var(--primary-foreground);
+	--interactive-muted: var(--dimmed-foreground);
 
-    --input-background: var(--background-secondary);
+	--input-background: var(--background-secondary);
 
-    --toast-background: var(--background-primary);
-    --toast-header: var(--background-tertiary);
-    --toast-contents: var(--background-secondary);
-    --toast-box-shadow: rgba(0, 0, 0, 0.2);
-    --toast-border: var(--background-tertiary);
+	--toast-background: var(--background-primary);
+	--toast-header: var(--background-tertiary);
+	--toast-contents: var(--background-secondary);
+	--toast-box-shadow: rgba(0, 0, 0, 0.2);
+	--toast-border: var(--background-tertiary);
 
-    --background-primary: var(--primary-background);
-    --background-secondary: var(--secondary-background);
-    --background-secondary-alt: var(--tertiary-background);
-    --background-tertiary: var(--tertiary-background);
-    --background-accent: var(--brand-experiment);
-    --background-floating: var(--tertiary-background);
-    --background-modifier-hover: rgba(255, 255, 255, 0.01);
-    --background-modifier-active: rgba(255, 255, 255, 0.03);
-    --background-modifier-selected: rgba(255, 255, 255, 0.04);
-    --background-modifier-accent: hsla(0, 0%, 100%, 0.06);
+	--background-primary: var(--primary-background);
+	--background-secondary: var(--secondary-background);
+	--background-secondary-alt: var(--tertiary-background);
+	--background-tertiary: var(--tertiary-background);
+	--background-accent: var(--brand-experiment);
+	--background-floating: var(--tertiary-background);
+	--background-modifier-hover: rgba(255, 255, 255, 0.01);
+	--background-modifier-active: rgba(255, 255, 255, 0.03);
+	--background-modifier-selected: rgba(255, 255, 255, 0.04);
+	--background-modifier-accent: hsla(0, 0%, 100%, 0.06);
 
-    --channels-default: var(--tertiary-foreground);
-    --channeltextarea-background: var(--tertiary-background-alt);
+	--channels-default: var(--tertiary-foreground);
+	--channeltextarea-background: var(--tertiary-background-alt);
 
-    --activity-card-background: var(--background-primary);
-    --deprecated-card-bg: rgba(0, 0, 0, 0.2);
-    --deprecated-card-editable-bg: rgba(0, 0, 0, 0.1);
-    --deprecated-text-input-bg: var(--deprecated-card-editable-bg);
-    --deprecated-text-input-border: var(--background-floating);
-    --deprecated-text-input-border-disabled: var(--background-tertiary);
+	--activity-card-background: var(--background-primary);
+	--deprecated-card-bg: rgba(0, 0, 0, 0.2);
+	--deprecated-card-editable-bg: rgba(0, 0, 0, 0.1);
+	--deprecated-text-input-bg: var(--deprecated-card-editable-bg);
+	--deprecated-text-input-border: var(--background-floating);
+	--deprecated-text-input-border-disabled: var(--background-tertiary);
 }
 
 @import "./main/base";
@@ -52,4 +52,4 @@
 @import "./addons/bubbleChannelList";
 @import "./addons/bubbleMemberList";
 @import "./addons/bubbleSearchResults";
-@import "./addons/removeAnnoyingEventsButton";
+// @import "./addons/bubbleServerList";

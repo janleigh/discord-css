@@ -1,43 +1,45 @@
 #app-mount {
-    .cozy-VmLDNB .messageContent-2t3eCI:not(.repliedTextContent-2hOYMB), .embedFull-1HGV2S {
-        background-color: var(--background-tertiary);
-    }
+	.cozy-VmLDNB .messageContent-2t3eCI:not(.repliedTextContent-2hOYMB),
+	.embedFull-1HGV2S {
+		background-color: var(--background-tertiary);
+	}
 
-    .cozy-VmLDNB .repliedMessage-3Z6XBG, .repliedMessage-3Z6XBG ~ .contents-2MsGLg > .messageContent-2t3eCI:first-of-type {
-        background-color: var(--tertiary-background-alt);
+	.cozy-VmLDNB .repliedMessage-3Z6XBG,
+	.repliedMessage-3Z6XBG ~ .contents-2MsGLg > .messageContent-2t3eCI:first-of-type {
+		background-color: var(--tertiary-background-alt);
 
-        &::before {
-            background-color: var(--tertiary-background-alt);
-        }
-    }
+		&::before {
+			background-color: var(--tertiary-background-alt);
+		}
+	}
 
-    .cozy-VmLDNB .repliedMessage-3Z6XBG ~ .contents-2MsGLg > .messageContent-2t3eCI:first-of-type {
-        background-color: var(--background-tertiary);
-    }
+	.cozy-VmLDNB .repliedMessage-3Z6XBG ~ .contents-2MsGLg > .messageContent-2t3eCI:first-of-type {
+		background-color: var(--background-tertiary);
+	}
 
-    .cozy-VmLDNB.message-2CShn3.mentioned-Tre-dv .messageContent-2t3eCI:not(.repliedTextContent-2hOYMB) {
-        background-color: var(--background-tertiary) !important;
-        border-color: var(--brand-experiment);
-    }
+	.cozy-VmLDNB.message-2CShn3.mentioned-Tre-dv .messageContent-2t3eCI:not(.repliedTextContent-2hOYMB) {
+		background-color: var(--background-tertiary) !important;
+		border-color: var(--brand-experiment);
+	}
 
-    .cozy-VmLDNB .messageContent-2t3eCI:not(.repliedTextContent-2hOYMB) pre code {
-        background-color: var(--background-secondary) !important;
-    }
+	.cozy-VmLDNB .messageContent-2t3eCI:not(.repliedTextContent-2hOYMB) pre code {
+		background-color: var(--background-secondary) !important;
+	}
 
-    .attachment-1PZZB2 {
-        border-color: none !important;
-        background-color: var(--background-tertiary) !important;
-    }
+	.attachment-1PZZB2 {
+		border-color: none !important;
+		background-color: var(--background-tertiary) !important;
+	}
 
-    .embed-hKpSrO code {
-        background-color: var(--background-secondary) !important;
-    }
+	.embed-hKpSrO code {
+		background-color: var(--background-secondary) !important;
+	}
 
-    .message-2CShn3 .wrapper-1HIH0j {
-        background-color: var(--background-tertiary) !important;
-    }
-    .inviteSplash-2nkLRX {
-        border-radius: 0px 16px 0 0 !important;
-        margin: -16px -12px 16px !important;
-    }
+	.message-2CShn3 .wrapper-1HIH0j {
+		background-color: var(--background-tertiary) !important;
+	}
+	.inviteSplash-2nkLRX {
+		border-radius: 0px 16px 0 0 !important;
+		margin: -16px -12px 16px !important;
+	}
 }

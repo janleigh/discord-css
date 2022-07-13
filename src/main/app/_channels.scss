@@ -1,26 +1,25 @@
 #app-mount {
-    .sidebar-1tnWFu {
-        background-color: var(--background-secondary);
+	.sidebar-1tnWFu {
+		background-color: var(--background-secondary);
 
-        .container-1NXEtd {
-            background-color: inherit !important;
-        }
+		.container-1NXEtd {
+			background-color: inherit !important;
+		}
 
-        .unread-2wipsx {
-            background-color: var(--dimmed-foreground);
-        }
+		.unread-2wipsx {
+			background-color: var(--dimmed-foreground);
+		}
+		.users-2JoyGL {
+			background-color: var(--background-tertiary);
+		}
 
-        .users-2JoyGL {
-            background-color: var(--background-tertiary);
-        }
+		.modeSelected-3DmyhH .content-1gYQeQ,
+		.modeSelected-3DmyhH:hover .content-1gYQeQ {
+			border-left: 4px solid var(--brand-experiment);
+		}
 
-        .modeSelected-3DmyhH .content-1gYQeQ, .modeSelected-3DmyhH:hover .content-1gYQeQ {
-            border-left: 4px solid var(--brand-experiment);
-            border-radius: 0px;
-        }
-
-        [aria-label="User area"] {
-            background-color: var(--deprecated-card-editable-bg);
-        }
-    }
+		[aria-label="User area"] {
+			background-color: var(--deprecated-card-editable-bg);
+		}
+	}
 }

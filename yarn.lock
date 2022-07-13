@@ -829,6 +829,7 @@ __metadata:
   resolution: "kizucord@workspace:."
   dependencies:
     css-minify: ^2.0.0
+    prettier: ^2.7.1
     rimraf: ^3.0.2
     sass: ^1.50.1
   languageName: unknown
@@ -1470,6 +1471,15 @@ __metadata:
     picocolors: ^1.0.0
     source-map-js: ^1.0.2
   checksum: 248e3d0f9bbb8efaafcfda7f91627a29bdc9a19f456896886330beb28c5abea0e14c7901b35191928602e2eccbed496b1e94097d27a0b2a980854cd00c7a835f
+  languageName: node
+  linkType: hard
+
+"prettier@npm:^2.7.1":
+  version: 2.7.1
+  resolution: "prettier@npm:2.7.1"
+  bin:
+    prettier: bin-prettier.js
+  checksum: 55a4409182260866ab31284d929b3cb961e5fdb91fe0d2e099dac92eaecec890f36e524b4c19e6ceae839c99c6d7195817579cdffc8e2c80da0cb794463a748b
   languageName: node
   linkType: hard
 

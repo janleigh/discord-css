@@ -2,6 +2,6 @@
 
 <img src="https://cdn.xndr.tech/u/rX2WNf2.png" alt="theme preview">
 
-### ❖ Installation
+### <samp>INSTALLATION</samp>
 
-   * [Powercord](https://powercord.dev): `git clone https://github.com/janleigh/discord-css`
+   > **WIP.**

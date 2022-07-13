@@ -1,15 +1,16 @@
 #app-mount {
-    .option-ayUoaq {
-        &::after {
-            background: none;
-        }
-    }
+	.option-ayUoaq {
+		&::after {
+			background: none;
+		}
+	}
 
-    .searchFilter-2UfsDk {
-        background-color: var(--background-secondary);
-        padding: 0 4px;
-    }
-    .searchAnswer-23w-CH, .focused-2FU0YH {
-        background-color: var(--background-tertiary);
-    }
+	.searchFilter-2UfsDk {
+		background-color: var(--background-secondary);
+		padding: 0 4px;
+	}
+	.searchAnswer-23w-CH,
+	.focused-2FU0YH {
+		background-color: var(--background-tertiary);
+	}
 }
