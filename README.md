@@ -2,6 +2,6 @@
 
 <img src="https://cdn.xndr.tech/u/rX2WNf2.png" alt="theme preview">
 
-### <samp>INSTALLATION</samp>
+## :wrench: <samp>INSTALLATION</samp>
 
    > **WIP.**
