@@ -1,9 +1,0 @@
-{
-    "name": "kizucord",
-    "version": "1.0.0",
-    "theme": "dist/index.css",
-
-    "author": "Kizu#3267",
-    "description": "My personal discord theme.",
-    "license": "Unlicense"
-}
