@@ -1,6 +1,7 @@
 #app-mount {
 	.sidebar-1tnWFu {
 		background-color: var(--background-secondary);
+		box-shadow: var(--elevation-medium) !important;
 
 		.container-1NXEtd {
 			background-color: inherit !important;
@@ -10,12 +11,23 @@
 			background-color: var(--dimmed-foreground);
 		}
 		.users-2JoyGL {
-			background-color: var(--background-tertiary);
+			background-color: var(--tertiary-background-alt);
+		}
+		.total-1c5KCN {
+			background-color: var(--lighter-background);
+			padding: 0px;
+			width: 25px;
+
+			&::after {
+				display: none;
+			}
 		}
 
 		.modeSelected-3DmyhH .content-1gYQeQ,
 		.modeSelected-3DmyhH:hover .content-1gYQeQ {
-			border-left: 4px solid var(--brand-experiment);
+			border-left: 2px solid var(--brand-experiment);
+			border-radius: 8px;
+			background-color: var(--lighter-background);
 		}
 
 		[aria-label="User area"] {
