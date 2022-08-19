@@ -1,12 +1,8 @@
 nav[aria-label="Servers sidebar"] {
 	width: 10px;
-	transition: width 0.5s;
+	transition: width 600ms;
 }
 
 nav[aria-label="Servers sidebar"]:hover {
 	width: 70px;
 }
-
-// .pill-2RsI5Q {
-//     visibility: hidden;
-// }

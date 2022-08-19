@@ -12,7 +12,7 @@
 	--text-muted: var(--secondary-foreground);
 	--interactive-normal: var(--tertiary-foreground);
 	--interactive-hover: var(--secondary-foreground);
-	--interactive-active: var(--primary-foreground);
+	--interactive-active: var(--lighter-foreground);
 	--interactive-muted: var(--dimmed-foreground);
 
 	--input-background: var(--background-secondary);
@@ -34,7 +34,7 @@
 	--background-modifier-selected: rgba(255, 255, 255, 0.04);
 	--background-modifier-accent: hsla(0, 0%, 100%, 0.06);
 
-	--channels-default: var(--tertiary-foreground);
+	// --channels-default: var(--dimmed-foreground);
 	--channeltextarea-background: var(--tertiary-background-alt);
 
 	--activity-card-background: var(--background-primary);
